@@ -38,15 +38,100 @@
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 		</cconfiguration>
+		<cconfiguration id="com.android.toolchain.gcc.1817529576.715461300">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.android.toolchain.gcc.1817529576.715461300" moduleId="org.eclipse.cdt.core.settings" name="NDKFriendlyConfiguration">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="gets the includes right" id="com.android.toolchain.gcc.1817529576.715461300" name="NDKFriendlyConfiguration" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.android.toolchain.gcc.1817529576.715461300." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.macosx.base.617714636" name="MacOSX GCC" superClass="cdt.managedbuild.toolchain.gnu.macosx.base" unusedChildren="cdt.managedbuild.tool.macosx.cpp.linker.macosx.base;cdt.managedbuild.tool.gnu.assembler.macosx.base;cdt.managedbuild.tool.macosx.c.linker.macosx.base;cdt.managedbuild.tool.gnu.archiver.macosx.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.MachO64" id="cdt.managedbuild.target.gnu.platform.macosx.base.2119801535" name="Debug Platform" osList="macosx" superClass="cdt.managedbuild.target.gnu.platform.macosx.base"/>
+							<builder id="com.android.builder.965270938" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Android Builder" superClass="com.android.builder"/>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.macosx.base.2063949530" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.macosx.base">
+								<option id="gnu.c.compiler.option.include.paths.1492602345" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/Applications/ndk/platforms/android-21/arch-arm/usr/include"/>
+									<listOptionValue builtIn="false" value="/Applications/ndk/platforms/android-21/arch-arm64/usr/include"/>
+									<listOptionValue builtIn="false" value="/Applications/ndk/platforms/android-21/arch-mips/usr/include"/>
+									<listOptionValue builtIn="false" value="/Applications/ndk/platforms/android-21/arch-mips64/usr/include"/>
+									<listOptionValue builtIn="false" value="/Applications/ndk/platforms/android-21/arch-x86/usr/include"/>
+									<listOptionValue builtIn="false" value="/Applications/ndk/platforms/android-21/arch-x86_64/usr/include"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.906580837" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.base.1176859024" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.base">
+								<option id="gnu.cpp.compiler.option.include.paths.1054348543" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/Applications/ndk/platforms/android-21/arch-arm/usr/include"/>
+									<listOptionValue builtIn="false" value="/Applications/ndk/platforms/android-21/arch-arm64/usr/include"/>
+									<listOptionValue builtIn="false" value="/Applications/ndk/platforms/android-21/arch-mips/usr/include"/>
+									<listOptionValue builtIn="false" value="/Applications/ndk/platforms/android-21/arch-mips64/usr/include"/>
+									<listOptionValue builtIn="false" value="/Applications/ndk/platforms/android-21/arch-x86/usr/include"/>
+									<listOptionValue builtIn="false" value="/Applications/ndk/platforms/android-21/arch-x86_64/usr/include"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.675848989" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.macosx.cpp.linker.1645901305" name="MacOS X C++ Linker" superClass="cdt.managedbuild.tool.macosx.cpp.linker">
+								<inputType id="cdt.managedbuild.tool.macosx.cpp.linker.input.1861222948" superClass="cdt.managedbuild.tool.macosx.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="jni"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
 	</storageModule>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="Fibo.null.15603513" name="Fibo"/>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/Fibo"/>
+		</configuration>
+		<configuration configurationName="NDKFriendlyConfiguration">
+			<resource resourceType="PROJECT" workspacePath="/Fibo"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1817529576.715461300;com.android.toolchain.gcc.1817529576.715461300.;cdt.managedbuild.tool.gnu.c.compiler.base.1621896208;cdt.managedbuild.tool.gnu.c.compiler.input.1061824552">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1817529576.715461300;com.android.toolchain.gcc.1817529576.715461300.;cdt.managedbuild.tool.gnu.cpp.compiler.macosx.base.1176859024;cdt.managedbuild.tool.gnu.cpp.compiler.input.675848989">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1817529576;com.android.toolchain.gcc.1817529576.540157063;com.android.gcc.compiler.823171628;com.android.gcc.inputType.1728620935">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.android.AndroidPerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1817529576.715461300;com.android.toolchain.gcc.1817529576.715461300.;com.android.gcc.compiler.1514168512;com.android.gcc.inputType.832198129">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.android.AndroidPerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1817529576.715461300;com.android.toolchain.gcc.1817529576.715461300.;cdt.managedbuild.tool.gnu.c.compiler.macosx.base.1383809214;cdt.managedbuild.tool.gnu.c.compiler.input.1464522926">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1817529576.715461300;com.android.toolchain.gcc.1817529576.715461300.;cdt.managedbuild.tool.gnu.c.compiler.macosx.base.2063949530;cdt.managedbuild.tool.gnu.c.compiler.input.906580837">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1817529576.715461300;com.android.toolchain.gcc.1817529576.715461300.;cdt.managedbuild.tool.gnu.cpp.compiler.base.960064631;cdt.managedbuild.tool.gnu.cpp.compiler.input.1054904674">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1817529576.715461300;com.android.toolchain.gcc.1817529576.715461300.;com.android.gcc.compiler.10026216;com.android.gcc.inputType.876495564">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.android.AndroidPerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1817529576.715461300;com.android.toolchain.gcc.1817529576.715461300.;cdt.managedbuild.tool.gnu.cpp.compiler.macosx.base.1757135033;cdt.managedbuild.tool.gnu.cpp.compiler.input.18367954">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
 		</scannerConfigBuildInfo>
 	</storageModule>
 </cproject>
